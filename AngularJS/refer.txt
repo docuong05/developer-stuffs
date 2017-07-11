@@ -1,0 +1,46 @@
+https://192.168.73.37:8443/hudson/job/xcomponent-widgets-js-dev/javadoc/#/api/xcomponentwidgets.directive:metadataDisplay
+
+I/ Workspace:
+- Git-SCM: Because bower will get projects on git-hub.(check: git --version)
+- Ruby and Compass: We using compass for compile SCSS files to CSS files.(check compass --version)
+- NodeJS: Many components like Grunt, Bower, Yeoman, Karman… build on top of NodeJS .That’s why we need to installed NodeJS.(check node --version; npm --version)
+- Install some modules:
+	1. Grunt: $npm install -g grunt-cli
+	2. Bower: $npm install -g bower
+	3. Yeoman: $npm install -g yo
+			   $npm install -g generator-angular
+- The package.json file belongs in the root directory of your project, next to the Gruntfile, and should be committed with your project source. Running $npm install in the same folder as a package.json file will install the correct version of each dependency listed therein.
+	- There are a few ways to create a package.json file for your project:.
+		+ Most grunt-init templates will automatically create a project-specific package.json file.
+		+ The $npm init command will create a basic package.json file.
+		{
+			"name": "myproject",
+			"version": "0.1.1",
+			"devDependencies":{
+				"grunt:"~0.4.2",
+				"grunt-contrib-jhint":"~0.6.3",
+				"grunt-contrib-nodeunit":"~0.2.0",
+				"grunt-contrib-uglify: "~0.2.2"
+				}
+		}
+II/ Some commands:
+	1. npm install : download all tools wrote in nodejs for the project.(one time)
+	2. double-click: checkout-subprojects.bat inside project to download xcomponent-widgets
+	+ about: bower_components every project should be have it......
+	4. bower install : download all javascript libraries. (khi add libraries vao angular.module trong app.js va khai bao no trong bower.js(file thu vien))
+	5. grunt bowerInstall : add all javascript libraries to index.html.
+	6. grunt serve : run liveReload, very helpful when develop. It automatically reload page.
+	7. grunt build : create a distribution by merge all css,  js,  html files and compress other resources.  
+	
+	/*Moi app co duy nhất cái angular.module: quản lý components dc dùng, cũng như libraries*/
+	+var app = angular.module('app', ['xcomponent','xcomponent-widgets','ngRoute','ngTouch','ngAnimate','angularSpinner']);
+	
+	/*Khai báo services*/
+	+angular.module('app').service('ConfigUtil', function () {
+	
+	What difference:
+	+app.module
+	+app.module().service
+	+app.controller
+	+ app.directive -> trong nó cũng có controller
+	+angular.module('httpExample', []).controller / khac gi voi  app.controller

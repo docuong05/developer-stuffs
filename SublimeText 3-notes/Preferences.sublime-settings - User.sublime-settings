@@ -1,0 +1,23 @@
+{
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"folder_exclude_patterns":
+	[
+		"target/*",
+		".svn",
+		"/xframework-ebill/*",
+		"/xframework-event/*",
+		"/xframework-event-connector/*",
+		"/xgov/*",
+		"/xframework-saas/*",
+		"/black-tie/*",
+		"/mailflow-app/*",
+		"/xapf-app/*",
+		"/xehr-app/*",
+		"/xcomponent/*"
+	],
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"Vintage"
+	]
+}
