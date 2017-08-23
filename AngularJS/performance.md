@@ -1,4 +1,4 @@
-Improve Performance in JS/HTMl
+Improve Performance in JS/HTML - Angular Tips
 ===========
 
 ### 1. Should use latest version of angular (newer version have performance improved) - *Don't live in the past*
