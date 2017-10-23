@@ -192,3 +192,4 @@ We now bind the object to a variable and maintain reference to it, preventing th
 1. https://www.airpair.com/angularjs/posts/angularjs-performance-large-applications
 2. [EvalAsync Example](https://stackoverflow.com/questions/12729122/angularjs-prevent-error-digest-already-in-progress-when-calling-scope-apply/23102223#23102223) and [Comparation $apply, $digest, $timeout, $evalAsync](http://www.codingeek.com/angularjs/angular-js-apply-timeout-digest-evalasync/)
 3. [Custom ng-repeat for better performance](http://blog.scalyr.com/2013/10/angularjs-1200ms-to-35ms/)
+4. https://github.com/RajaJaganathan/angularjs-best-practices
