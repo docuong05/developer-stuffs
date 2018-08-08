@@ -1,0 +1,254 @@
+- XCOPY: Copy all folder and SubFolder with overwrite exsiting = N without display file name while copy
+xcopy /s/Q/E/D/H D:\ZWorkingSpaces E:\ZWorkingSpaces /EXCLUDE:D:\abc.txt
+
+https://www.drivereasy.com/knowledge/fix-100-disk-usage-in-task-manager-improve-pc-performance-on-windows-10/
+
+http://vntils13:8501/ivy/pro/DEV51/xecm_ivy/1466B468284914DC/_processIndexDocument.ivp?env=Default&documentId=5ZWI51GS.TXT
+
+https://vntils13:8984/solr/Default/update?stream.body=%3Cdelete%3E%3Cquery%3EobjectType:%22Folder%22%3C/query%3E%3C/delete%3E&commit=true
+https://vntils13:8984/solr/Dev002/update?stream.body=%3Cdelete%3E%3Cquery%3EobjectSourceName:Default%3C/query%3E%3C/delete%3E&commit=true
+
+https://vntils13:8984/solr/Dev002/update?stream.body=%3Cdelete%3E%3Cquery%3Eid:XECM-DOCUMENT--DEV002-6BIGAXNP.PDF%3C/query%3E%3C/delete%3E&commit=true
+
+curl -k --user xline-service-user --pass xl4Jee@ChangeIt1 https://vntils13:8984/solr/admin/authentication -H "Content-type:application/json" -d "{\"set-user\":{\"admin\":\"vnadmin\"}}"
+
+https://vntils13:8984/solr/Dev003/update?stream.body=%3Cdelete%3E%3Cquery%3EobjectType:%22Folders%22%3C/query%3E%3C/delete%3E&commit=true
+
+MS addin: https://vntils06:8443/xecm-web/xecm-app/index.html#/document-edit/390254596656238390.PPTX/
++ tag name:xecm4_390254596656238390
++ pdf file:xecm4_390254596656238390.PPTX
+
+Executioncontext: http://172.24.100.163/redmine/issues/33041
+1./Update OK:
+	+ EnumeratorServices
+	+ KeywordTypeServices
+	+ KeywordTypeServices
+	+ Base36Utils
+	+ VersionServices
+	+ DocumentFacade
+	+ KeywordValueFacade
+	+ DeiClientWebServices
+	+ DocumentRestServices
+2./ Update Failed
+	+DocumentRestServices
+piof/piof
+----------------------------------------------------------------------------------------------------------
+http://172.24.100.152:8086/hudson/
+
+http://172.24.100.149:8081/artifactory/webapp/browserepo.html?0
+
+xline-service-user@Dev002 xl4Jee@ChangeIt1
+xline-service-user@groupe-t2i.local
++ vntiws02: GenVN2Sec
++ vntiws04: GenVN2Sec5
+
+XDOCADM /FRAISE fraise
+
+Zoom Account: hcmc-5star@axonactive.vn/5starvn OR Skype account: aa.5star/ti3vietnam
+
+mount -t cifs //vntiws02/Docs -o username=Administrator,password=GenVN2Sec,domain=localhost  /192.168.73.13/DOCS
+
+mount -t cifs //192.168.73.13/Docs -o username=Administrator,password=GenVN2Sec,domain=localhost  /192.168.73.13/DOCS
+
+date --set='20180626 09:42:00' 
+
+1./ Sublime Text hotkey
++ Search file: Ctrl + P
++ Open method: Ctrl + R (@)
++ G0 line: Ctrl + G (: so dong)
++ format code: ctrl+alt+a
+Jump to definition = Alt+Click
+Jump to definition = Control+Windows+Alt+Up
+Go back = Control+Windows+Alt+Lef
+Manual Code Intelligence = Control+Shift+space
+File current: Ctrl+K, Ctrl+F
+Edit -> Line -> Trimmer : trim space (hoac Ctrl + Alt + S)
+
+Solr 7.1.0
+/opt/solr-7.1.0/bin/solr start -force -p 8090
+/opt/solr-7.1.0/bin/solr stop -force -p 8090
+/opt/solr-7.1.0/bin/solr start -force -p 8090 -a "-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=1044"
+
+2/ Review 
+\\vntiws03\TI-5Star
+756.7361.2756.50
+
+$rootScope.serviceContext ={"userId":"userIdTest","environmentName":"Default","regionalSettings":"fr","contextualRole":"roleTest"}
+$rootScope.persistenceConfig ='{"datasourceName":"java:jboss/xlinedta001","dbPrefix":"crm_"}';
+
+table in J30:
++ARAUREP - Keyword
++ARCKREP -visa
++ARAPREP -document
++ARADREP -editor
++ARAJREP -department
++ARAHREP -documentType
++ARBMREP  -Version
++ARALREP -DataType
++AREZCPP - Folders
++ARARREP - Folder entry
++ARATREP - Document comment type
++OP8wT -  keyId
++ARAOREP - database
++ARGHREP - FolderLink(GHAWCD:parent db,GHIUNA:parent folder)
++OP9ET - Storage Class
++ARG0CPP - document index table
++ecm_idx_f - folder index table
++ECM_DTTPXT - dynamic keyword
+DDrhvT comment table
+
+
+
+use XLINEDTA002;
+select * from ecm_param where param_id='OR5' and param_type like '%group%' ;
+select * from ecm_kitydo
+select * from ddsecclass where obj_type='ORG' and obj_id='MK2'
+
+USE xlinedta001_GroupeT2i;
+select businessEventName,isBusinessEvent,groupId,eventType,eventSubType,eventCategory,eventSubCategory,objectId,objectType,eventData,eventDate,eventTime,userName
+from framework_eventlog where objectId='OR5' and eventSubType = 'department'
+ 
+delete framework_eventlog where objectId='LO4'
+
+
+/*## DOCUMENT ########################################################################*/
+SELECT top 1 * from ARAPREP where apactx like '%vndocument-create-on%';
+select * from arg0cpp where ddr68a='R' and dd1ra='5ZV00008.DOC';
+update ARG0CPP set ddr68a='R' where ddr68a<>'F' or DD1RA ='5ZWI81HH.DOC';
+update ARG0CPP set ddr68a='R' where DD1RA in(select top 200 DD1RA from ARG0CPP);
+select * from TOBJDESC;
+select * from INDEXATION_BATCH;
+-- truncate table TOBJDESC;
+-- truncate table indexation_batch
+
+declare @OBJECT_DESCRIPTOR VARCHAR(MAX)
+EXEC exportdoc @OBJECT_DESCRIPTOR = @OBJECT_DESCRIPTOR output,@DOCUMENTID = '_ALL_',@SEC_ENVIRONMENT='002',@ENVIRONMENT='Dev002', @LANG='en', @ACTION='PROCESSOR',@SESSION_ID='VNCUD_SESSION'
+select @OBJECT_DESCRIPTOR
+
+declare @OBJECT_DESCRIPTOR VARCHAR(MAX)
+EXEC exportdoc @OBJECT_DESCRIPTOR = @OBJECT_DESCRIPTOR output,@DOCUMENTID = '6BIDWGY7.PDF',@SEC_ENVIRONMENT='002',@ENVIRONMENT='Dev002', @LANG='en', @ACTION='PROCESSOR',@SESSION_ID='VNCUD_SESSION'
+select @OBJECT_DESCRIPTOR
+
+select * from TOBJDESC;
+--exec xp_cmdshell 'bcp "select document_descriptor from xlinedtaJ30.dbo.TOBJDESC ORDER BY indexation_id" queryout \\vntiws03\TI-5Star\descriptors_docsn.txt -w -T -r \n'
+update ECM_DTTPXT set filter=0 where ALATCD='DTSIG'
+
+
+/*## FOLDER ########################################################################*/
+-- Folder table
+select * from arezcpp where EZAWCD='ADRES' and EZF8TX='vncud10';
+-- Folder entry table
+select * from ARARREP where arapcd='ADRES' and ARAETX like 'vncud10';
+select * from ARARREP where arapcd='ADRES' and ARAETX like 'vncud6';
+select * from ARG0CPP where DD1rA in( select ARASVN from ARARREP where arapcd='ADRES' and ARAETX like 'vncud10');
+SELECT ARAETX folderId,count(*) numDoc from ARARREP group by ARAETX ;
+
+-- count document by folder
+SELECT DDr68A FROM ARARREP, ARG0CPP 
+WHERE ARARREP.ARASVN = ARG0CPP.DD1RA AND (ARARREP.ARAETX= 'vncud6' AND ARARREP.ARAPCD = 'ADRES' or ARARREP.ARAETX= 'vncud10' AND ARARREP.ARAPCD = 'ADRES');
+
+select *  from TFLDDESC;
+-- truncate table TFLDDESC;
+-- truncate table indexation_batch
+select * from ecm_idx_f where status='F' and databaseId='ADRES' and busnsFldId like '%vncud%';
+update ecm_idx_f set status='R' where databaseId='ADRES' and busnsFldId='VNCUD6';
+update ecm_idx_f set status='R' where databaseId='AZD01' and busnsFldId='PDT15082017';
+--insert into ecm_idx_f values(10765610,'ADRES','VNCUD10','N',null,null);
+
+declare @OBJECT_DESCRIPTOR VARCHAR(MAX)
+EXEC exportFolder @OBJECT_DESCRIPTOR = @OBJECT_DESCRIPTOR output,@DATABASEID = '_ALL_',@FOLDERID='_ALL_', @SEC_ENVIRONMENT='J30',@ENVIRONMENT='Default',@LANG='en', @ACTION='PROCESSOR',@SESSION_ID='VNCUD_SESSION_fff'
+select @OBJECT_DESCRIPTOR
+
+-- select count document in ARG0CPP table by folder entries
+SELECT DDr68A FROM ARARREP, ARG0CPP 
+WHERE ARARREP.ARASVN = ARG0CPP.DD1RA AND (ARARREP.ARAETX= 'vncud6' AND ARARREP.ARAPCD = 'ADRES' or ARARREP.ARAETX= 'vncud10' AND ARARREP.ARAPCD = 'ADRES');
+
+select * 
+from ecm_idx_f 
+where databaseId='ADRES' and (busnsFldId = 'vncud6' or busnsFldId = 'vncud7' or busnsFldId = 'vncud8' or busnsFldId = 'vncud9' or busnsFldId = 'vncud10')
+
+SELECT * FROM DEBUG
+TRUNCATE TABLE DEBUG;
+select * from ecm_fldtyp
+
+	-- while loop SQL
+-- Note: run all script by sqltool or suitable command on DBBraver,..
+-- select count(*) from xlinedtaJ30.dbo.OP8WT where OP5OA like 'dummy%'
+-- delete  from xlinedtaJ30.dbo.OP8WT where OP5OA like 'dummy%'
+declare @i int
+set @i=0
+while @i<1500
+begin
+
+	insert into xlinedtaJ30.dbo.OP8WT(usza,us10a,us11a,us12a,us13a,us14a, OP5OA) 
+	values('2018-05-18 00:00:00.000','2018-05-18 06:40:00.000','cuong.do','2018-05-18 00:00:00.000','2018-05-18 05:40:06.000','cuong.do','dummy'+ cast(@i as varchar(100)));
+
+set @i=@i+1
+end
+
+
+-- Simulate 1500 event ADD_DOCUMENT
+-- select count(*) from xlinedtaJ30.dbo.OP8WT where OP5OA like 'dummy%'
+-- delete  from xlinedtaJ30.dbo.OP8WT where OP5OA like 'dummy%'
+declare @i int
+set @i=0
+while @i<1500
+begin
+
+	insert into [5Star_HRC].dbo.framework_eventlog(objectId, eventtype, eventsubtype, system,timestamp) 
+	values('dummy'+ cast(@i as varchar(100)),'ADD','cuong.do','DOCUMENT','XECM','cuong.do','2018-05-18 07:30:00');
+
+set @i=@i+1
+end
+
+--CHECK CONSISTENCY FOR ADD_DOCUMENT/VERSION	
+SELECT count(OP5OA)
+from xlinedtaJ30.DBO.OP8WT left join xlinedtaJ30.dbo.ARAPREP ON APASVN = OP5OA 
+WHERE US10A >= '2018-05-18 06:40:00' AND US10A <= '2018-05-20 06:50:00'
+
+select count(*)
+from [5Star_HRC].dbo.framework_eventlog
+where timestamp > '2018-05-18 06:40:00' and timestamp <= '2018-05-20 09:50:17' and eventtype ='ADD' 
+and (eventsubtype ='DOCUMENT' or eventsubtype ='VERSION') and system ='XECM' and (status is null or status != 6)
+
+--delete from [5Star_HRC].dbo.framework_eventlog where id = '13404673'
+
+--CHECK CONSISTENCY FOR DELETE_DOCUMENT/VERSION
+
+
+SELECT OP8WT.OP5OA as documentId, ARAPREP.APACTX as description from xlinedtaJ30.DBO.OP8WT left join xlinedtaJ30.DBO.ARAPREP ON APASVN = OP5OA WHERE US10A >= '2018-05-18 06:00:00' AND US10A <= '2018-05-18 06:50:00' ORDER BY documentId ASC
+
+/*FIX DATE KEYWORD WRONG FORMAT*/
+select AUALNA , auatcd from ARAUREP where auatcd in (
+select alatcd from ARALREP 
+where alaucd = '04') or alaucd = '04' or alaucd = '05' or alaucd = '07' or alaucd = '08')
+ARALREPDTASG
+select * from ECM_KWLST
+
+delete ARAUREP where AUALNA ='20140617'
+
+select * from ARALREP where alatcd ='DTASG'
+update ARALREP set alaucd = '08' where alatcd ='DTASG'
+'03' --DDMMYY
+'04' --YYMMDD
+'05' --MMDDYY
+'07' --DDMMYYYY
+'08' --YYYYMMDD
+
+1. Expiry date management: #48569
+2. Parameter management: #48871
+3. Block and not block/unblock folder:#47708, #49203
+4. Download document: #40174
+5. DDSECCLASS: #47128
+6. Retention date: #50289
+7. Journal document generation: #51413
+8. Check consistency document/event: #51405
+9. Folder type calculating rule: 
+   + option 1: If (first 3 characters businessId = ecm_fldtyp.typeId) && (folder DB = ecm_fldtyp.DB)
+   + option 2: When option 1 failed: (folder DB = ecm_fldtyp.DB) && (folder desc1 >= 6) && (first character desc1 = '!') && (first 6 characters = ecm_fldtyp.prefixDesc1)
+   + option 3: (folder desc1 leng >=1) && (first character desc1 != '!') && (folder DB = ecm_fldtyp.DB) && (ecm_fldtyp.typeId = '')
+10. Folder keywords for document:
+	+ document nature -> document type DB = folder entry DB
+	+ List businessId,ds1,ds2,ds3 data type are defined in ecm_kikw
+   
+11. Folder cung business nhung khac folder Type: 200718   
